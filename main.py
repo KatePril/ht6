@@ -15,7 +15,7 @@ def mouse(symbol):
     print("  " * 4 + symbol * 3)
 
 def draw_mouse():
-    print("MOUSE")
+    print("-" * 20 + "MOUSE" + "-" * 20)
     symbol = input("Enter the symbol: ")
     mouse(symbol[0])
 
@@ -32,7 +32,7 @@ def planet(symbol):
     print("  " * 5 + symbol * 4)
     
 def draw_planet():
-    print("PLANET")
+    print("-" * 20 + "PLANET" + "-" * 20)
     symbol = input("Enter the symbol: ")
     planet(symbol[0])
 
@@ -57,7 +57,7 @@ def owl(main_symbol, additional_symbol, another_additional_symbol):
     print("  " * 3 + additional_symbol * 3 + "  " + additional_symbol * 3)
 
 def draw_owl():
-    print("OWL")
+    print("-" * 20 + "OWL" + "-" * 20)
     main_symbol = input("Enter the main symbol: ")
     additional_symbol = input("Enter the additional symbol: ")
     another_additional_symbol = input("Enter another additional symbol: ")
@@ -88,7 +88,7 @@ def penguin(main_symbol, additional_symbol):
     print("  " * 3 + main_symbol * 2 + additional_symbol + main_symbol + "  " * 5 + main_symbol + additional_symbol + main_symbol * 2)
 
 def draw_penguin():
-    print("PENGUIN")
+    print("-" * 20 + "PENGUIN" + "-" * 20)
     main_symbol = input("Enter the main symbol: ")
     additional_symbol = input("Enter the additional symbol: ")
     penguin(main_symbol[0], additional_symbol[0])
